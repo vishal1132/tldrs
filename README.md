@@ -2,3 +2,4 @@ This is a place for me to write all my tl;dr versions for the books, blogs, vide
 
 ### TOC
 [Distributed Systems](distributed_systems/README.md)
+[Regex](regex/README.md)
