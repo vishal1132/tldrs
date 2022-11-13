@@ -1,0 +1,3 @@
+  reminders-notification:
+      cmd: /Users/vishal/scripts/reminders.sh
+      time: 10 */5 * * * * 
