@@ -45,3 +45,6 @@ performance; Big O of n*m- nested loop / quadratic. Be careful and constrain you
 performance; Anything else between quadratic and subexponential. don't run this on a million rows.
 
 performance; Big O of b to power n or Big O of n factorial- exponential and up... good luck if you have more than a dozen or two data points
+
+performance; go compiler uses escape analysis to figure out if the memory needs to live on the heap, -gcflags=-m to see these decisions.
+
