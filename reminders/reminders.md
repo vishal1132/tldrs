@@ -29,3 +29,19 @@ performance; 10 microsecond for context switch
 optimization workflow; do you need to do it at all? fastest code is the one that's never run. Is this the best algorithm? Is this the best implementation of the algorithm?
 
 performance; ensure you have right set of tools set up which give reproducible numbers for benchmark. always benchmark and verify the newer code is faster, if it's not never forget to undo the changes.
+
+performance; even though two algorithms have same asymptotic complexity their constant factor might be different.
+
+performance; Big O of 1 - field access, array or map lookup- don't worry about it, but keep in mind the constant factor.
+
+performance; Big O of log n- binary search. Only a problem when in loop.
+
+performance; Big O of n- simple loop. You are doing this all the time.
+
+performance; Big O of n log n- divide-and-conquer, sorting. Still fairly fast
+
+performance; Big O of n*m- nested loop / quadratic. Be careful and constrain your set sizes
+
+performance; Anything else between quadratic and subexponential. don't run this on a million rows.
+
+performance; Big O of b to power n or Big O of n factorial- exponential and up... good luck if you have more than a dozen or two data points
