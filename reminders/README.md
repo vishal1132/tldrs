@@ -5,3 +5,8 @@ Combining [terminal-notifier](https://github.com/julienXX/terminal-notifier/) wi
 
 ### Example-
 ![example](reminder.png)
+
+### Remind Me script
+remind me script to add a reminder from anywhere under a known markdown top headline. (poor man's CLI).
+
+![remindme-example](remindme.png)
